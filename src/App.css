@@ -37,10 +37,6 @@
   }
 }
 .FullName {
-  font-style: italic;
   color: brown;
-}
-.App {
-  font-style: italic;
-  color: cornflowerblue;
+  display: flex;
 }

@@ -1,10 +1,12 @@
 import React from "react";
 import profil from "./profil.jpg";
 
-export default function ProfilPhoto() {
+const ProfilPhoto = (props) => {
   return (
     <div>
-      <img src={profil} alt="profil" width="20%" /> <br />
+      {props.name}
+      <img src={profil} alt="profil" width="10%" />
     </div>
   );
-}
+};
+export default ProfilPhoto;
